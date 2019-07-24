@@ -13,8 +13,49 @@
 		<script src="{% static '/vendors/jquery/jquery-3.3.1.min.js' %}"></script>
 		<script src="{% static '/vendors/jquery-ui/jquery-ui.min.js' %}"></script>
 	</head>
+	  <style>
+      #content {
+  display: flex;
+  flex-direction: row;
+        justify-content: flex-end;
+       
+       
+}
+     #content1 {
+  display: flex;
+  justify-content: flex-end;
+       
+       
+}
+ 
+      body {
+  background-color: purple;
+}
+      .box{
+ padding: 120px;
+        margin: 20px; 
+      }
+    </style>
+	</head>
 	<body>
 		<!-- Your layout here -->
+    
+        
+<div id="content">
+  <div class="box" style="background-color:orange;"> </div>
+  <div class="box" style="background-color:orange;"> </div>
+  <div class="box" style="background-color:orange;"> </div>
+   <div class="box" style="background-color:orange;"> </div>
+  <div class="box" style="background-color:orange;"> </div>
+</div>
+  
+            
+<div id="content1">
+  <div class="box" style="background-color:orange;"> </div>
+  <div class="box" style="background-color:orange;"> </div>
+  <div class="box" style="background-color:orange;"> </div>
+</div>
+            
 
 	</body>
 </html>
